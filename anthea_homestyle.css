@@ -1,6 +1,6 @@
 /*HTML & BODY*/
 html {
-    margin: 20;
+    margin: 20px;
     padding: 0px;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -62,7 +62,7 @@ body {
     background-color: #FCEE21;
     border: none;
     width: 70px;
-    0px;
+    /*0px;*/
 }
 
 /*HOMEPAGE*/
@@ -97,14 +97,15 @@ body {
 .hr-main {
     border: 3px solid #999999;
     border-radius: 0px;
+    /*opacity:100*/
     margin-block-end: 0rem;
     margin: 0rem;
 }
 
 /*CARDS*/
 .card {
-    align-items: centre;
-    position: centre;
+    align-items: center;
+    /*position:centre;*/
     background-color: #333333;
     border: 0px;
     width: 300px;
