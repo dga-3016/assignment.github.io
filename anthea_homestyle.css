@@ -1,6 +1,6 @@
 /*HTML & BODY*/
 html {
-    margin: 20px;
+    /*margin: 20px;*/
     padding: 0px;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -177,4 +177,11 @@ select.form-control {
 
 * {
     box-sizing: border-box
+}
+
+/* INDIVIDUAL EXHIBITION - student name and specialisation*/
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 2rem;
+    color: white;
 }
