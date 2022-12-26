@@ -185,3 +185,18 @@ h1 {
     font-size: 2rem;
     color: white;
 }
+
+/* INDIVIDUAL EXHIBITION - title of dessertation*/
+h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5rem;
+    color: #FCEE21;
+}
+
+
+/* INDIVIDUAL EXHIBITION - fb & insta icons*/
+.fa-brands {
+    color: white;
+    font-size: 1.5rem;
+    align-items: flex-end;
+}
