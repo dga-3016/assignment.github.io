@@ -144,7 +144,7 @@ select.form-control {
     background: transparent;
     border: none;
     border-bottom: 1px solid #999999;
-    -webkit-box-shadow: none;
+    /*-webkit-box-shadow: none;*/
     box-shadow: none;
     border-radius: 0;
 }
@@ -168,7 +168,7 @@ select.form-control {
     background: transparent;
     border: none;
     border-bottom: 1px solid #999999;
-    -webkit-box-shadow: none;
+    /*-webkit-box-shadow: none;*/
     box-shadow: none;
     border-radius: 0;
     font-size: 1.5vw;
