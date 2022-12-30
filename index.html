@@ -14,7 +14,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!--Link to CSS file-->
-    <link rel="stylesheet" type="text/css" href="anthea_homestyle.css">
+    <link rel="stylesheet" type="text/css" href="KaizenStyle.css">
 
     <!-- Typeface from Google Fonts -->
     <!--IBM Plex Mono-->
@@ -26,7 +26,8 @@
 </head>
 
 <body>
-    <!-- 02. Navbar -->
+   
+   <!-- 02. Navbar -->
 
     <nav class="navbar navbar-expand-md navbar-dark shadow-5-strong">
         <!-- Container Wrapper-->
@@ -41,7 +42,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
 
-                    <!-- href needs to be added to link -->
+                    <!-- href - To Link -->
 
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">[Kaizen]</a>
@@ -89,59 +90,98 @@
         <span class="brlarge"></span>
 
         <!-- 05. Meet The Artist -->
-        <div class="row row-cols-2"></div>
-        <div>
-            <img src="MeetTheArtist.jpg" alt="Meet The Artist" width="50%">
-
+        <!--Image Carousel-->      
+       
+    <div id="carouselExampleInterval" class="carousel slide py-5" data-bs-ride="carousel">
+        <div class="carousel-inner"> 
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="Monica.jpg"
+                    class="d-block w-100 rounded mx-auto d-block" alt="MonicaMTA">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="Rachel.jpg"
+                    class="d-block w-100 rounded mx-auto d-block" alt="RachellMTA">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="Phoebe.jpg"
+                    class="d-block w-100 rounded mx-auto d-block" alt="PhoebeMTA">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="Chandler.jpg"
+                    class="d-block w-100 rounded mx-auto d-block" alt="ChandlerMTA">
+            </div>
+            
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
 
         <!-- Content Separator -->
         <hr class="hr-main">
+        
+    </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 
         <!--06. Cards-->
         <div class="row row-cols-2 row-cols-md-4 px-7">
-            <div class="col my-md-3 my-0">
+        <div class="col my-md-3 my-0">
                 <!--.Cards-->
-                <div class="card">
+                    <div class="card">
                     <a href="photographypg.html">
                         <!--.card-img-->
                         <img src="images/stud_work/brigitta-schneiter-MHGDVDWjAb4-unsplash.jpg" class="card-img"
                             style="position:relative; top:40px;" alt="Photography">
                     </a>
-                    <h1 class="title">Photography | Phoebe Buffay</h1>
+        <h1 class="title">Photography | Phoebe Buffay</h1>
                 </div>
-            </div>
+                </div>
             <div class="col my-md-3 my-0">
-                <!--.Cards-->
+            
+            <!--.Cards-->
                 <div class="card">
                     <a href="monicageller.html">
                         <!--.card-img-->
                         <img src="Illustration.jpg" class="card-img" style="position:relative; top:40px;"
                             alt="illustration">
                     </a>
-                    <h1 class="title">Illustration | Monica Geller</h1>
-                </div>
+         <h1 class="title">Illustration | Monica Geller</h1>
+            </div>
             </div>
             <div class="col my-md-3 my-0">
-                <!--.Cards-->
+                
+             <!--.Cards-->
                 <div class="card">
-                    <a href="LINK YOUR INDIVIDUAL PAGE">
+                    <a href="EditorialDesignpg.html">
                         <!--.card-img-->
                         <img src="Installation.jpg" class="card-img" style="position:relative; top:40px;"
                             alt="Installation">
                     </a>
-                    <h1 class="title">Installation | Rachel Green</h1>
-                </div>
+          <h1 class="title"> Editorial Design | Rachel Green</h1>
+            </div>
             </div>
             <div class="col my-md-3 my-0">
-                <!--.Cards-->
+             
+             <!--.Cards-->
                 <div class="card">
                     <a href="Students/chandler_bing/chandler_bing.html">
                         <!--.card-img-->
                         <img src="Animation.jpg" class="card-img" style="position:relative; top:40px;" alt="Animation">
                     </a>
-                    <h1 class="title">Animation | Chandler Bing</h1>
-                </div>
+          <h1 class="title">Animation | Chandler Bing</h1>
+            </div>
             </div>
 
         </div>
@@ -166,29 +206,46 @@
 
                     <div class="col-2 col-md-8">
 
-                        <!--.body-text-->
+                        
+              <!--.body-text-->
+                   </div>
+                   </div>
+                   <section class="container-fluid px-0">
+                   <div class="row align-items-center content">
+                   <div class="col-md-6 order-2 order-md-1">
+         <img src="ContactUs.jpg" alt="Contact Us" class="img-fluid">
+    </div>
+    <div class="col-md-6 text-center order-1 order-md-2">
+    <div class="row justify-content-center">
+    <div class="col-10 col-lg-8 mb-5 mb-md-0">
+              
+              
+                    
                         <p class="body-text">
                             Contact us, we'd love to hear from you!
                             <br>
                             Fill in your email and leave us a comment to get in touch with
                             any artist in relation to this exhibition or to their personal work.
                         </p>
-
+                        <div class="row align-items-left content"></div>
                         <form action="https://formsubmit.co/kaizen@gmail.com" method="POST">
+                            <!--.mb-3 col-11-->
                             <div class="mb-3 col-11">
-                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                          
+                                <label for="exampleInputEmail" class="form-label">Email</label>
                                 <input type="email" class="form-control" id="InputEmail" name="email" required="">
                                 <div id="emailHelp" class="form-text"></div>
                             </div>
 
                             <div class="d-grid col-11">
                                 <label for="textarea2" class="form-label">Leave your comment here</label>
-                                <!--.form-control-->
-                                <input type="text" class="form-control" name="information" id="textarea" required="">
+                                
+                            <!--.form-control-->
+                            <input type="text" class="form-control" name="information" id="textarea" required="">
                             </div>
 
                             <div class="d-grid col-11 pt-4 pb-3">
-                                <input type="submit" class="button-light-sm" style="text-align: left" value="SUBMIT">
+                            <input type="submit" class="button-light-sm" style="text-align:left" value="SUBMIT">
                             </div>
                             <input type="hidden" name="_next" value="https://digiarts.edu.mt/bfa-23">
                         </form>
