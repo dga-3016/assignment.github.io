@@ -113,8 +113,6 @@ body {
 }
 
 .card-img {
-  width: 300px;
-  height: 300px;
   object-fit: fill;
   border-radius: 15px;
 }
@@ -128,7 +126,7 @@ body {
 .title {
   font-family: "IBM Plex Mono", monospaced;
   font-weight: 600;
-  font-size: 1.1vw;
+  font-size: 1.1rem;
   color: #FCEE21;
   padding-left: 0px;
   padding-top: 3vw;
